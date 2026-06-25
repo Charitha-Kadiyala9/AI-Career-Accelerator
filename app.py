@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 api_key = os.getenv("GEMINI_API_KEY")
-st.write("Loaded Key:", api_key)
+
 import streamlit as st
 from pdf_generator import (
     create_resume_pdf,
